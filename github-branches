@@ -1,0 +1,13 @@
+$ git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+$ git branch -vv
+  bug-fix-revert de1a091 [origin/bug-fix-revert] Revert "Fix typo in README footer from 2022 to 2023"
+  bug-fix-typo   da75226 [origin/bug-fix-typo] Fix typo in README footer from 2022 to 2023
+* main           afafb29 [origin/main] Complete Git and GitHub lab files
